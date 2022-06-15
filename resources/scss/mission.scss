@@ -1,0 +1,31 @@
+@use 'components/bannerimags' ;
+
+
+
+
+.mission-box{
+    position: relative;
+    box-shadow: 2px 2px 2px 1px #eee,-2px -2px 2px 1px #eee;
+
+}
+.mission-img{
+    position: absolute;
+    left:-5%;
+    top:8%;
+}
+.mission-box .mission-title{
+    font-size: var(--font-size-2xl);
+    font-weight: bold;
+
+}
+.mission-box .mission-text{
+    font-size: var(--font-size-xl);
+    
+}
+.mission-group-custom{
+    .list-group-item{
+       border: none;
+       font-size: var(--font-size-xl);
+
+    }
+}

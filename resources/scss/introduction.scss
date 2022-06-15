@@ -1,0 +1,13 @@
+@use 'components/bannerimags' ;
+
+
+
+
+.intro-about  p:first-child {
+    font-size: var(--font-size-3xl);
+}
+
+.intro-about p:nth-child(2){
+    font-size: var(--font-size-xl);
+    text-align: justify;
+}

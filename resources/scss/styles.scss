@@ -1,0 +1,119 @@
+html{
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.3125rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2.652rem;
+  --font-size-4xl: 4rem;
+}
+:root{
+  --orange-color:rgb(174, 144, 46);
+  --lead-color:#888888;
+}
+
+
+.outer-header{
+  background-color: rgb(6, 3, 64);
+}
+.top-header{
+    padding:14px 0px;
+   
+}
+
+a{
+    text-decoration: none;
+  }
+  .top-header{
+      color:#fff;
+  }
+
+  .top-header a{
+    color:#fff;
+  }
+
+  .top-header s i{
+    color:#fff;
+    font-size:20px;
+  }
+  .apply-now{
+    padding:5px;
+    background-color: rgb(64, 210, 10);
+    
+
+  }
+  .online-result{
+    padding:5px;
+    background-color: rgb(83, 191, 238);;
+
+
+  }
+  .online-exam{
+    padding:5px;
+    background-color: rgb(225, 235, 80);
+ 
+
+  }
+
+  //navigation css starts
+
+  .navigation-header{
+    .nav-link{
+      font-size:var(--font-size-md);
+      font-weight: 600;
+      color:rgb(43, 6, 110) !important;
+      text-transform: uppercase;
+    
+    }
+  }
+  .navigation-header .nav-link:hover{
+    color:var(--orange-color) !important;
+  }
+  .navigation-header .dropdown-item:hover{
+    color:var(--orange-color) !important;
+    background-color: none !important;
+  }
+  //navigation css ends
+
+  //footer css
+ 
+  footer{
+    color:#fff;
+  }
+  .list-group-custom .list-group-item{
+    background-color: transparent !important;
+    color:#fff;
+    font-size: var(--font-size-xl);
+
+  }
+  .list-group-custom p:first-child{
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+    text-transform: capitalize;
+
+  }
+
+
+  //footer css ends
+
+  .dropdown-menu .dropdown-item:hover{
+    background-color:transparent;
+  }
+
+  
+  @media all and (min-width: 992px) {
+    	.navbar .nav-item .dropdown-menu{ 
+        display: none; 
+      }	
+      .navbar .nav-item:hover .nav-link{  
+
+       }	
+      .navbar .nav-item:hover .dropdown-menu{ 
+        display: block; 
+      }	
+      .navbar .nav-item .dropdown-menu{ margin-top:0; 
+      }
+    }
+
+

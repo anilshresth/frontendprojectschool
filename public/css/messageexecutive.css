@@ -1,0 +1,32 @@
+.bannerimage {
+  height: 340px;
+  background-size: cover cover;
+  background-position: center center;
+  background-repeat: repeat no-repeat;
+  position: relative;
+}
+.bannerimage p.banner-title {
+  font-size: var(--font-size-3xl);
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.bannerimage p {
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about-executive {
+  font-size: var(--font-size-xl);
+  text-align: justify;
+  color: #928888;
+  padding: 10px;
+}

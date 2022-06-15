@@ -1,0 +1,54 @@
+.bannerimage {
+  height: 340px;
+  background-size: cover cover;
+  background-position: center center;
+  background-repeat: repeat no-repeat;
+  position: relative;
+}
+.bannerimage p.banner-title {
+  font-size: var(--font-size-3xl);
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.bannerimage p {
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.staff-table thead th {
+  color: #fff;
+  font-size: var(--font-size-2xl) !important;
+  background-color: rgb(206, 200, 200);
+  text-transform: uppercase;
+}
+
+.staff-table tbody {
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.staff-table tbody th {
+  padding: 10px 0;
+}
+.staff-table tbody td {
+  padding: 10px;
+}
+
+.staff-table table thead th:first-child {
+  width: 5%;
+}
+
+.staff-table > p {
+  font-size: var(--font-size-3xl);
+  font-weight: bold;
+  text-transform: uppercase;
+}

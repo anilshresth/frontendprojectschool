@@ -1,0 +1,158 @@
+#carouselExampleControls{
+    img{
+        height: 650px;
+        object-fit: cover ;
+        object-position: center;
+    }
+}
+
+.academic-slider-wrapper{
+    padding:30px 0;
+}
+.academic-header{
+    font-size: var(--font-size-3xl);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.academic-programme-box{
+  
+    padding-top:40px;
+ 
+}
+
+.academic-programme-image{
+    max-width: 80%;
+    border:1px solid #eee;
+    margin:0 auto;
+    margin-bottom:-15px;
+    background-color: #fff;
+    padding:10px
+}
+
+.academic-programme-content{
+    padding-top:20px;
+    border:1px solid #eee;
+    padding:20px 20px;
+}
+.academic-programme-content{
+    
+    .academic-title{
+        font-size:var(--font-size-xl);
+        font-weight: bold;
+    }
+}
+// .bg-info{
+//     + p{
+//         font-weight: bold;
+//         font-size:var(--font-size-2xl);
+//         padding-top:30px;
+//     }
+// }
+.bg-info p:first-child{
+        font-weight: bold;
+        font-size:var(--font-size-3xl);
+        padding-top:30px;
+        color:#fff;
+}
+
+//event and activities section
+.event-box-wrapper{
+    padding:5px;
+    box-shadow: 5px 5px 3px #eee, -5px -5px 4px #eee;;
+
+}
+.event-name-bold{
+    font-size: var(--font-size-2xl);
+    font-weight: bold;
+    color:rgb(4, 7, 80);
+    text-transform: capitalize;
+}
+.event-name-muted{
+    color:rgb(128, 126, 126);
+    text-transform:capitalize;
+}
+.event-col-title{
+    text-transform: capitalize;
+    font-size: var(--font-size-3xl);
+    font-weight: bold;
+}
+
+//end event and activities section
+
+//rhedon voice section
+.rhedon-voices{
+    background-color: rgb(214, 214, 214);
+}
+.rhedon-voice{
+    font-size: var(--font-size-3xl);
+    
+}
+.student-voice{
+    position: relative;
+    box-shadow: 2px 2px  #eee, -2px -2px #eee;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.student-voice-img{
+    display: inline-block;
+}
+.student-voice-img img{
+    position: absolute;
+    left:-10%;
+    top:17px;
+    object-fit: cover;
+
+}
+.student-name{
+    color:rgb(43, 6, 110);
+    padding-left:90px;
+}
+.student-grade{
+    color:var(--orange-color);
+    padding-left: 90px;
+}
+.student-voice-content{
+    text-align: justify;
+}
+
+//rhedon voice section ends
+
+
+//blog section starts
+.blog-section{
+    padding:20px;
+}
+.blog-section .blog-title{
+    font-size: var(--font-size-3xl);
+    font-weight: bold;
+    text-align: center;
+}
+.blog-divider{
+    color:rgb(198, 191, 191);
+    width:100%;
+    padding:0 !important;
+}
+.blog-section {
+    .card-footer{
+        i{
+            font-size: 20px;
+            color:orange;
+            border:1px solid #fff;
+        }
+    }
+}
+.blog-links a{
+    padding:10px;
+    color:#fff;
+    font-size: var(--font-size-2xl);
+
+}
+
+//blog sectio ends
+
+@media screen and (max-width:600px){
+
+ 
+  }

@@ -1,0 +1,26 @@
+.submit-voice-section{
+    background-color: var(--bs-orange);
+   
+    color:#fff;
+    
+}
+.submit-voice-section p{
+    font-size: var(--font-size-3xl);
+    text-align:center;
+    font-weight: bold;
+}
+.student-form{
+    background-color: var(--bs-blue);
+    color:#fff;
+    
+}
+.student-form  > p:first-child{
+    color:#fff;
+    font-size: var(--font-size-3xl);
+    text-transform: uppercase;
+    margin:0 auto;
+
+}
+.student-form label{
+    font-size: var(--font-size-2xl);
+}

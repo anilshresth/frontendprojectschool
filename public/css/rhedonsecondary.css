@@ -1,0 +1,92 @@
+.bannerimage {
+  height: 340px;
+  background-size: cover cover;
+  background-position: center center;
+  background-repeat: repeat no-repeat;
+  position: relative;
+}
+.bannerimage p.banner-title {
+  font-size: var(--font-size-3xl);
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.bannerimage p {
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.school-intro > p:first-child {
+  font-size: var(--font-size-2xl);
+  font-weight: bold;
+}
+
+.school-intro > p:nth-child(2) {
+  font-size: var(--font-size-xl);
+  text-align: justify;
+}
+
+.school-intro > p:nth-child(3) {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+}
+
+.academic-programme > p:first-child {
+  font-size: var(--font-size-2xl);
+  font-weight: bold;
+}
+
+.academic-group-custom .list-group-item {
+  font-size: var(--font-size-xl);
+  border: none;
+  color: #292b2c;
+  font-weight: 500;
+}
+
+.academic-group-custom .list-group-item:hover {
+  color: var(--orange-color);
+}
+
+.academic-group-custom i {
+  padding: 10px;
+}
+
+.recent-blogs > p:first-child {
+  font-size: var(--font-size-2xl);
+  font-weight: bold;
+}
+
+.recent-blogs > div:nth-child(2) p:first-child {
+  font-size: var(--font-size-xl);
+}
+
+.recent-blogs img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.school-intro > p:first-child {
+  font-size: var(--font-size-2xl);
+  font-weight: bold;
+}
+
+.school-intro > p:nth-child(2) {
+  font-size: var(--font-size-xl);
+}
+
+.school-intro > p:nth-child(3) {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+}

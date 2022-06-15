@@ -1,0 +1,19 @@
+
+@use 'components/bannerimags' ;
+@use 'components/sharedblogs' ;
+
+
+
+
+.school-intro > p:first-child{
+    font-size: var(--font-size-2xl);
+    font-weight: bold;
+}
+.school-intro > p:nth-child(2){
+    font-size: var(--font-size-xl);
+    
+}
+.school-intro > p:nth-child(3){
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+@use 'components/bannerimags';
+
+
+
+.services-title{
+    font-size: var(--font-size-2xl);
+    text-transform: capitalize;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.services-text {
+    text-align: justify;
+    font-size: var(--font-size-xl);
+    margin:auto 0;
+    
+
+}
+.services-image img{
+    object-fit: cover;
+}

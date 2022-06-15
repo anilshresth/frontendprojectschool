@@ -1,0 +1,40 @@
+@use 'components/bannerimags' ;
+
+
+.staff-table{
+    thead{
+        th{
+            color:#fff;
+            font-size: var(--font-size-2xl) !important;
+            background-color: rgb(206, 200, 200);
+            text-transform: uppercase;
+        }
+    }
+}
+
+.staff-table tbody{
+    font-size: var(--font-size-xl);
+    text-transform: uppercase;
+    font-weight: 500;
+     th{
+         padding:10px 0;
+     }
+     td{
+         padding:10px;
+     }
+}
+
+.staff-table table{
+    thead{
+        th:first-child{
+            width:5%;
+
+        }
+    }
+}
+
+.staff-table > p{
+    font-size: var(--font-size-3xl);
+    font-weight: bold;
+    text-transform: uppercase;
+}
